@@ -19,7 +19,7 @@ namespace CRM //Customer Relationship Management - Musteri Takip Sistemi
         static void Main(string[] args)
         {
             BaseCustomerManager customerManager = new NeroCustomerManager(new CustomerCheckManager());
-            customerManager.Save(new Customer { DateOfBirth = new DateTime(1988), FirstName = "Ethem Anil", LastName = "SANDALCI", NationalityId = "45157983158" });
+            customerManager.Save(new Customer { DateOfBirth = new DateTime(1988), FirstName = "Ethem Anil", LastName = "SANDALCI", NationalityId = "***********" });
             Console.ReadLine();
         }
     }
